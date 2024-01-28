@@ -17,8 +17,7 @@ class CustomLinter extends PluginBase {
     if (!hasMatches) return defaultRule(m: _S.notFoundMessage);
     final String rule = keys.firstWhere((e) => _S.lintNameRegex.hasMatch(e));
     final int? limit = toInt(rule);
-    if (limit == null || limit.isNegative)
-      return defaultRule(m: _S.incorrectLimitMessage(rule));
+    if (limit == null) return defaultRule(m: _S.incorrectLimitMessage(rule));
     print(_S.matchFoundMessage(limit));
     return [LinesLimitLintCode(limit)];
   }
