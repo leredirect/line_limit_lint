@@ -3,7 +3,6 @@ description: "Lint rule, designed to highlight widget files that exceed a specif
 version: 0.0.1
 homepage: https://github.com/leredirect/line_counter_lint
 
-
 environment:
   sdk: '>=3.2.6 <4.0.0'
 
