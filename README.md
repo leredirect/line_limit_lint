@@ -11,7 +11,7 @@ The purpose is to encourage developers to keep widget files concise and focused.
 
 ```yaml  
 dev_dependencies:
-  line_limit_lint: 0.0.1
+  line_limit_lint: any
   custom_lint: any  
 ```  
 
