@@ -5,3 +5,7 @@
 ## 0.0.2
 
 * README edited
+
+## 0.0.3
+
+* Stable version

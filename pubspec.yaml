@@ -1,6 +1,6 @@
 name: line_limit_lint
 description: "Lint rule, designed to highlight widget files that exceed a specified size threshold."
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/leredirect/line_counter_lint
 
 environment:
