@@ -11,8 +11,7 @@ The purpose is to encourage developers to keep widget files concise and focused.
 
 ```yaml  
 dev_dependencies:
-  line_limit_lint:  
-    git: https://github.com/leredirect/line_counter_lint.git  
+  line_limit_lint: 0.0.1
   custom_lint: any  
 ```  
 
