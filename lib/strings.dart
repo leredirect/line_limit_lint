@@ -13,6 +13,8 @@ class Strings {
 
   static final RegExp lintNameRegex = RegExp(r'^\d+_lines_limit_in_widgets$');
   static const String loadingMessage = 'Looking for match..';
+  static const String defaultReturnMessage = 'Rule is not declared explicitly, '
+      'enabling default limit: 120';
   static const String notFoundMessage = 'Matches is not found';
   static const String stfulName = 'StatefulWidget';
   static const String stlessName = 'StatelessWidget';

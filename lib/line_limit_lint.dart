@@ -10,7 +10,7 @@ PluginBase createPlugin() => CustomLinter();
 class CustomLinter extends PluginBase {
   @override
   List<LintRule> getLintRules(CustomLintConfigs configs) {
-    if (configs.rules.isEmpty) return defaultRule();
+    if (configs.rules.isEmpty) return defaultRule(m: );
     final List<String> keys = configs.rules.keys.toList();
     print(_S.loadingMessage);
     final bool hasMatches = keys.any((e) => _S.lintNameRegex.hasMatch(e));
