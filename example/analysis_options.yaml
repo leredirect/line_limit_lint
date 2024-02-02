@@ -6,5 +6,6 @@ analyzer:
     strict-raw-types: false
   exclude:
     - "lib/ignored_widget.dart"
-linter:
+custom_lint:
   rules:
+    - 110_lines_limit_in_widgets: true
