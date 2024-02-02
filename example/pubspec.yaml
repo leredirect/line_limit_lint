@@ -1,0 +1,20 @@
+name: example
+description: "Line Limit Lint example project."
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  custom_lint: ^0.5.11
+  line_limit_lint: 0.0.3
+  very_good_analysis: 5.1.0
+
+flutter:
+  uses-material-design: true

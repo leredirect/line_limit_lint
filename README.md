@@ -38,7 +38,7 @@ custom_lint:
     - 150_lines_limit_in_widgets: true  
 ```  
 If the rule is not specified explicitly or incorrect data is specified, the standard limit will be
-included - **120** lines
+enabled - **120** lines.
 You can find more information about custom list rules here:
 https://invertase.io/blog/custom-linter-rules
 
