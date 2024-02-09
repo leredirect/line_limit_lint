@@ -12,8 +12,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  custom_lint: ^0.5.11
-  line_limit_lint: 0.0.3
+  custom_lint: ^0.6.0
+  line_limit_lint: any
   very_good_analysis: 5.1.0
 
 flutter:

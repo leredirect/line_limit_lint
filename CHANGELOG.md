@@ -17,7 +17,12 @@
 * - added very_good_analysis as main rules set
 * - all linter warnings fixed
 
-## 0.0.4
+## 0.0.5
 
 * Stable version
 * - example and documentation improved
+
+## 0.0.6
+
+* Stable version
+* - dependencies bump
